@@ -1,0 +1,151 @@
+@media (min-width: 768px) {
+  .blog-title {
+    font-size: 2em;
+  }
+
+  .blog-post {
+    font-size: 1.3em;
+  }
+
+  .author-text {
+    font-size: 1.1em;
+  }
+
+  .author-info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .author-card-name {
+    font-size: 1.5em;
+  }
+
+  .social-title {
+    font-size: 1.5em;
+  }
+
+  .share-buttons img {
+    width: 70px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-blog-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    padding: 2em;
+  }
+  
+  .blog-title {
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.blog-post {
+  margin-left: 20px;
+}
+
+.blog-content {
+  line-height: 2em;
+}
+
+.author-photo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.blog-author {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px;
+  font-size: .8em;
+}
+
+.author-text {
+  margin-left: 10px;
+}
+
+.author-name,
+.date-published {
+  margin: 0;
+  align-self: flex-end;
+}
+
+.garyvee-book-link {
+  color: orange;
+}
+
+/* Social Sharing */
+
+.social-sharing {
+  margin-top: 50px;
+
+}
+
+.social-title {
+  text-transform: capitalize;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+.share-buttons img {
+  width: 50px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+
+/* Author Card */
+
+.author-container {
+  padding: 1em;
+}
+
+.author-card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.author-card:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.author-card-photo {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.author-card-content {
+  padding: 2px 16px;
+}
+
+.author-card-name {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .8em;
+  margin-left: 5px;
+}
+
+  
+  
+
+  .social-sharing {
+    margin-top: 0;
+    text-align: center;
+  }
+}
