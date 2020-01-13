@@ -1,0 +1,71 @@
+/* Header Styles */
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  background: #FF6E33;
+}
+
+.name {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-title {
+  font-size: 40px;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  width: 217px;
+  border: none;
+  color: grey;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.nav-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 5px; */
+}
+
+.nav-desktop li {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* follow us format */
+.page-footer {
+  background: #FF6E33;
+}
+
+.footer-container {
+  padding: 1em;
+}
+
+.footer-title {
+  margin-bottom: 0;
+}
+
+.footer-about {
+  margin-top: 5px;
+}
+
+.footer-social-title {
+  margin-bottom: 0;
+}
+
+.footer-links {
+  margin-top: 5px;
+}
+
+.footer-copyright {
+  text-align: center;
+  background: #FF5533;
+  padding: .5em;
+  font-size: 14px;
+}
