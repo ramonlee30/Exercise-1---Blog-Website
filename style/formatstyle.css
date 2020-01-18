@@ -121,6 +121,7 @@ button {
 
   .card-title {
     font-size: 1.3em;
+    font-weight: bold;
   }
 
   .card-description {
@@ -130,6 +131,7 @@ button {
    /* email sign up section */
   .signup-header {
     font-size: 1.3em;
+    font-weight: bold;
   }
 
   .signup-form p {
@@ -217,7 +219,7 @@ button {
 /* email styles */
 .signup-header {
   text-align: center;
-  font-style: bold;
+  font-weight: bold;
   margin-top: 40px;
 }
 
