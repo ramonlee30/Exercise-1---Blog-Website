@@ -176,6 +176,7 @@ button {
   .popsy-details {
     width: 650px;
     text-align: center;
+    font-style: italic;
     margin: auto;
     padding: 20px;
   }
@@ -193,6 +194,7 @@ button {
 
   .signup-form p {
     text-align: left;
+    font-style: italic;
     width: 300px;
   }
 
@@ -215,6 +217,7 @@ button {
 /* email styles */
 .signup-header {
   text-align: center;
+  font-style: bold;
   margin-top: 40px;
 }
 
