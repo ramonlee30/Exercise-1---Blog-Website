@@ -27,6 +27,7 @@ button {
 
 .main-content {
   padding: 1em;
+  
 }
 
 .card {
@@ -88,6 +89,8 @@ button {
 @media (min-width: 768px) {
   .main-title {
     font-size: 50px;
+    font-weight:bold;
+    text-decoration: underline;
   }
   .main-nav {
     display: none;
