@@ -16,6 +16,8 @@
   font-size: 40px;
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-weight:bold;
+    text-decoration: underline;
 }
 
 .main-nav {
