@@ -27,6 +27,8 @@ button {
 
 .main-content {
   padding: 1em;
+font-weight:bold;
+    text-decoration: underline;
   
 }
 
