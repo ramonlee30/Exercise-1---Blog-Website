@@ -114,6 +114,8 @@ font-weight:bold;
   /* main content */
   .about {
     font-size: 1.2em;
+      font-weight:bold;
+  text-decoration: underline;
   }
 
   /* blog section */
