@@ -5,6 +5,8 @@
   align-items: center;
   padding: 1em;
   background: #FF6E33;
+  font-weight:bold;
+    text-decoration: underline;
 }
 
 .name {
